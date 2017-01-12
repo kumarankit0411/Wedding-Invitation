@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Harpal and Ritu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Kalam|Bungee+Shade" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand first-text" href="#">&#128329;</a>
+    </div>
+
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+          <picture>
+            <source src="images/first-image-small.JPG" media="(max-width: 450px)" type="image/jpg"></source>
+            <img src="images/first-image-large.JPG" alt="Image">
+          </picture>
+      </div>
+      <div class="item">
+        <picture>
+          <source src="images/second-image-small.JPG" media="(max-width: 450px)" type="image/jpg"></source>
+          <img src="images/second-image-large.JPG" alt="Image">
+        </picture>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<div class="zero-info-text">
+  <h1 id="name-top">HARPAL & RITU</h1>
+  <img src="images/flower.gif" class="line-image2 img-responsive" alt="line">
+  <br/>
+  <p>As we celebrate our wedding on 5-2-2017</p>
+  <p>We invite you to join us</p>
+</div>
+
+<div class="container-fluid" id="sangeet-container" style="padding: 0">
+  <picture>
+    <source src="images/fifth-image-small.jpg" media="(max-width: 450px)" class="fifth-image img-responsive" type="image/jpg"></source>
+    <img src="images/fifth-image-large.JPG" class="fifth-image img-responsive" alt="Image">
+  </picture>
+</div>
+
+
+<div class="zero-info-text color-wedding">
+  <br/>
+  <p id="wedding-heading">Wedding ceremony</p>
+  <br/>
+  <p>VENUE: HARSHDEEP GUEST HOUSE</p>
+  <p>Pashchimpuri Rd, Near Hema Petrol Pump, Bodla, Agra</p>
+  <br/>
+  <p>⏱ TIMING: 7:00 PM</p>
+  <p><em></em></p>
+</div>
+
+
+
+<footer class="container-fluid text-center" id="myFooter">
+  <p>Made with <img src="http://www.clker.com/cliparts/V/a/r/B/D/o/love-md.png" width="15px" height="inherit"/> by <cite>Ankit Kr. Singh<cite></p>
+</footer>
+
+</body>
+</html>

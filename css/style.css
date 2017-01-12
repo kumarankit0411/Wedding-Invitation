@@ -1,0 +1,180 @@
+body {
+  font-family: 'Kalam', sans-serif;
+}
+
+.first-text {
+  font-size: 40px;
+}
+
+#name-top {
+  font-size: 1.9em;
+}
+.carousel {
+  background-color: white;
+}
+
+#myFooter {
+  background: #aaa;
+}
+#address {
+  line-height: 20px;
+}
+
+.kalash {
+  width: 5px;
+  height: 5px;
+}
+.first-info {
+  position: relative;
+  top: 20px;
+}
+#name-top {
+  font-family: "Bungee Shade", cursive;
+}
+
+.zero-info-text {
+  font-size: 1.7em;
+  padding: 10px;
+  background-color: #fff;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(0,0,255,.5);
+}
+
+#wedding-heading {
+  text-decoration: underline;
+  font-size: 1.9em;
+}
+
+.wedding-address {
+  font-size: 1.6em;
+}
+
+@media screen and (max-width: 600px) {
+  .zero-info-text {
+    font-size: 1.1em !important;
+  }
+  #wedding-heading {
+    text-decoration: underline;
+    font-size: 1.1em;
+  }
+
+}
+@media screen and (min-width: 601px) {
+  .zero-info-text {
+    font-size: 1.6em !important;
+  }
+}
+
+.line-image2 {
+  margin: auto;
+}
+
+.first-info-text {
+  color: #aaa;
+}
+
+.fifth-image {
+  width: 100vw;
+}
+
+.sixth-image {
+  width: 100%;
+}
+
+.jumbotron {
+  border-radius: 5px;
+  padding: 15px;
+  margin: auto;
+  width: auto;
+}
+
+@media screen and (max-width: 270px) {
+  .carousel-inner {
+    position: relative;
+    height: 30vh;
+  }
+  .carousel-caption{
+    display: none;
+  }
+  .forth-image {
+    display: none;
+  }
+  #name-top {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .carousel-inner {
+    position: relative;
+    height: 30vh;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 95px;
+    display: block !important;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .forth-image {
+    display: none;
+  }
+  #name-top {
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .carousel-inner {
+    position: relative;
+    height: 50vh;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 210px;
+    display: block !important;
+  }
+  .carousel-caption h3 {
+    font-size: 30px;
+  }
+  .forth-image {
+    display: none;
+  }
+  .third-image {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 809px) {
+  .carousel-inner {
+    position: relative;
+    height: 50vh;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 190px;
+    display: block !important;
+  }
+  .carousel-caption h3 {
+    font-size: 40px;
+  }
+}
+
+
+
+@media screen and (min-width: 810px) {
+  .carousel-inner {
+    position: relative;
+    height: 70vh;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 300px;
+  }
+  .carousel-caption h3 {
+    font-size: 60px;
+  }
+}
